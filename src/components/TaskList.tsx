@@ -19,12 +19,16 @@ export function TaskList() {
     if(!newTaskTitle) {
       return alert('Adicione um título à tarefa.')
     }
+    
     const CREATED_TASK = {
       id: Number((Math.random() * 1000).toFixed(0)),
       title: newTaskTitle,
       isComplete: false,
     }
+
     setTasks([...tasks, CREATED_TASK]);
+
+    setNewTaskTitle('');
   }
 
   function handleToggleTaskCompletion(id: number) {
