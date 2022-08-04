@@ -2,6 +2,12 @@
 
 O ponto principal da aplicação era desenvolver três funcionalidades para tornar a aplicação funcional.
 
+## Tecnologias utilizadas
+- Javascript
+- ReactJS
+- Typescript
+- SASS
+
 ## Componente da aplicação
 ### components/TaskList.tsx
 
